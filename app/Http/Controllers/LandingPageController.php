@@ -30,7 +30,7 @@ class LandingPageController extends Controller
         $modelo = $request->input('modelo');
         $foto = base64_encode(file_get_contents($request->file('foto')));
 
-        Mail::to("jobs@talentscode.com")->send(new SendInfo($nombre, $marca, $modelo, $foto));
+        Mail::to("angelmaga23@outlook.com")->send(new SendInfo($nombre, $marca, $modelo, $foto));
 
         return response()->json([
             "message" => "ok"
