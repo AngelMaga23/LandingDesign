@@ -182,8 +182,8 @@ body{
     width: 495px;
     height: 495px;
     position: absolute;
-    top: 90px;
-    right: 46px;
+    top: 34px;
+    right: -55px;
 }
 
 .banner-text h6{
@@ -406,9 +406,36 @@ footer{
 }
 
 @media only screen and (min-width:320px) and (max-width:767px){
+
+    body{
+        width: 100%;
+    }
+
     .services-options i{
         display:block
     }
+
+    .banner-image .bottle {
+        width: 615px;
+        margin-top: 55px;
+    }
+
+    .banner-text {
+        margin-top: 54px;
+    }
+
+    .water-effect {
+        width: 470px;
+        height: 470px;
+        position: absolute;
+        top: 20px;
+        right: -54px;
+    }
+
+    footer{
+        height: auto;
+    }
+
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px){
