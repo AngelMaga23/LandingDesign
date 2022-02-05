@@ -25,7 +25,7 @@ $(document).ready(function(){
               if(response.message == 'ok')
               {
                     Modal_mensajes("Se ha enviado tu mensaje");
-                    window.location.href = '../contacto';
+                    window.location.href = 'contacto';
 
               }
               else{
