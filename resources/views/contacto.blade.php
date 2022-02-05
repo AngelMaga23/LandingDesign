@@ -100,5 +100,5 @@
 
 
 @section('custom_script')
-<script src="{{ asset('js/contacto.js') }}"></script>
+<script src="{{ secure_asset('js/contacto.js') }}"></script>
 @endsection
