@@ -15,7 +15,7 @@ $(document).ready(function(){
         e.preventDefault();
         $.ajax({
           type:'post',
-          url:'../../send',
+          url:'send',
           data:new FormData(this),
           contentType: false,
           cache: false,
